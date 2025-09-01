@@ -1,6 +1,6 @@
 //Criar um programa que Calcule o índice IMC
 
-class Program
+class CalculoDoIMC
 {
     static void Main()
     {

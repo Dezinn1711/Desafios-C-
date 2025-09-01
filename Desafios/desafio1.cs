@@ -1,6 +1,6 @@
 //Desenvolver um programa que utilize "for" para calcular a soma dos números 1 a 10.
 
-class Program
+class CalculoDeUmAtéDez
 {
     static void Main()
     {
