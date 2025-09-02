@@ -1,15 +1,13 @@
-//Criar um programa que Calcule o índice IMC
+//Criar um programa que Calcule o índice IMC.
 
 class CalculoDoIMC
 {
     static void Main()
     {
         Console.Write("Digite um peso em Quilogramas: ");
-
         double peso = double.Parse(Console.ReadLine());
 
         Console.Write("Digite um altura em Metros: ");
-
         double altura = double.Parse(Console.ReadLine());
 
         var calculoIMC = peso / (altura * altura);
@@ -38,6 +36,10 @@ class CalculoDoIMC
         else if (calculoIMC >= 40)
         {
             Console.Write("O IMC é: " + calculoIMC + ", e é classificado como Obesidade Grau 3 (Mórbida)");
+        }
+        else
+        {
+            Console.Write("Operação Inválida");
         }
 
         Console.ReadLine();
